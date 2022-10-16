@@ -1,6 +1,6 @@
 /***
 [rewrite_local]
-http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token url script-response-body https://raw.githubusercontent.com/Epoch992/QuantumultX/QX/Script/STSQ.js
+http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token url script-response-body https://raw.githubusercontent.com/Epoch992/QuantumultX/QX/Script/stsq.js
 hostname = wallpaper.soutushenqi.com
 ***/
 var body = JSON.parse($response.body);
