@@ -1,12 +1,3 @@
-/***
-#!name=FileBall
-#!desc=FileBall
-[Script] 
-FileBall = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/(\$RCAnonymousID%3A\w{32}|\w{34}|\S{36}))$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Epoch992/QuantumultX/QX/Script/FileBall.sgmodule,script-update-interval=0
-
-[MITM] 
-hostname = api.revenuecat.com
-***/
 var head = $request.headers;
 var ua = head['User-Agent'];
 var obj = JSON.parse($response.body);
