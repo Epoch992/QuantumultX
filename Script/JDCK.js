@@ -1,4 +1,3 @@
-/****
 #京东CK获取
 [rewrite_local]
 
@@ -7,4 +6,3 @@
 [mitm]
 
 hostname = api.m.jd.com
-****/
